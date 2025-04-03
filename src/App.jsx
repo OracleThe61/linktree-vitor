@@ -1,6 +1,7 @@
 
 import './App.css'
 import { FaGithub } from "react-icons/fa";
+import Linkedin from './components/linkedin';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
         <a href="https://github.com/OracleThe61"className='links' target='_blank'>
         <FaGithub />Github
         </a>
+        <Linkedin/>
     </div>
   )
 }
